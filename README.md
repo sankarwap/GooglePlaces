@@ -15,6 +15,7 @@ dependencies {
       implementation 'com.github.sankarwap:GooglePlaces:1.0'
 }
 ```
+![Screenshot](image\screen.jpg)
 
 
 1. You'll need a Google Server API key for you application. There are instructions on how to set up your API project and generate a key [here](https://developers.google.com/places/web-service/get-api-key)
