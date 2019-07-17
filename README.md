@@ -1,5 +1,8 @@
 # GooglePlaces
 
+### Screenshot
+<img src="image/screen.png" width="200">     <img src="image/screen2.png" width="200">
+
 ### Installing
 
 Use the following in your `build.gradle`:
@@ -15,7 +18,8 @@ dependencies {
       implementation 'com.github.sankarwap:GooglePlaces:1.0'
 }
 ```
-![](image/screen.png)
+
+
 
 
 1. You'll need a Google Server API key for you application. There are instructions on how to set up your API project and generate a key [here](https://developers.google.com/places/web-service/get-api-key)
