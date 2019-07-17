@@ -2,9 +2,11 @@
 
 ### Installing
 
-The `PlacesAutocompleteTextView` is available from the sonatype snapshots repository.
 Use the following in your `build.gradle`:
 
+
+
+```groovy
 repositories {
 			maven { url 'https://jitpack.io' }
 }
@@ -12,6 +14,8 @@ repositories {
 dependencies {
 	        implementation 'com.github.sankarwap:GooglePlaces:1.0'
 }
+```
+
 
 1. You'll need a Google Server API key for you application. There are instructions on how to set up your API project and generate a key [here](https://developers.google.com/places/web-service/get-api-key)
 
