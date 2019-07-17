@@ -8,11 +8,11 @@ Use the following in your `build.gradle`:
 
 ```groovy
 repositories {
-			maven { url 'https://jitpack.io' }
+      maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-	        implementation 'com.github.sankarwap:GooglePlaces:1.0'
+      implementation 'com.github.sankarwap:GooglePlaces:1.0'
 }
 ```
 
@@ -21,6 +21,7 @@ dependencies {
 
 2. With your API key, you're ready to add the `GooglePlacesAuto` to your layout xml:
 
+```groovy
     <com.sankarwap.googleplaces.GooglePlacesAuto
             android:id="@+id/autocomplete"
             android:layout_width="match_parent"
@@ -34,6 +35,7 @@ dependencies {
             android:background="@color/colorAccent"
             app:pacv_googleMapsApiKey="<"YOUR API KEY">"
             />
+```
 
 4. Finally, you'll likely want a listener in your UI to know when the user has selected an places from the dropdown:
 
