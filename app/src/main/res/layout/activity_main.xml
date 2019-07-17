@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimaryDark"
+              android:divider="@drawable/spacer_sixteen_dp"
+              android:showDividers="middle"
+              android:padding="16dp">
+    <com.sankarwap.googleplaces.GooglePlacesAuto
+            android:id="@+id/autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:hint="Address"
+            app:pacv_languageCode="en"
+            app:pacv_resultType="no_type"
+            app:pacv_clearEnabled="true"
+            android:background="@color/colorAccent"
+            app:pacv_googleMapsApiKey="@string/google_place_key"
+            app:pacv_adapterClass="com.placeslibraryown.PlacesAutocompleteAdapter"/>
+
+</LinearLayout>
